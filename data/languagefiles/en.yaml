@@ -1,6 +1,6 @@
 name: English
 
-skip: ["at", "on", "and", "ad", "m", "of", "st", "nd", "rd", "th", "about", "the", "just"]
+skip: ["at", "on", "and", "ad", "m", "of", "st", "nd", "rd", "th", "about", "the", "just", "by"]
 pertain: ["of"]
 
 monday:
@@ -99,12 +99,19 @@ simplifications:
     - yesterday: 1 day
     - tomorrow: in 1 day
     - today: 0 days
+    - within: in
+    - after: in
+    - before: by
     - last (week|month|year): 1 \1
     - next (week|month|year): in 1 \1
     - an: 1
     - a: 1
     - one: 1
     - two: 2
+    - three: 3
+    - four: 4
+    - five: 5
+    - six: 6
     - (\d+)\s*hr(s?): \1 hour\2
     - (\d+)\s*min(s?): \1 minute\2
     - (\d+)\s*sec(s?): \1 second\2
