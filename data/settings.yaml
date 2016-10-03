@@ -9,7 +9,7 @@ settings:
     RETURN_AS_TIMEZONE_AWARE: False
     NORMALIZE: True
     RELATIVE_BASE: False
-    DATE_ORDER: MDY
+    DATE_ORDER: DMY
     PREFER_LANGUAGE_DATE_ORDER: True
     FUZZY: False
     STRICT_PARSING: False
